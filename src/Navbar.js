@@ -7,7 +7,7 @@ function Navbar(props) {
   return (
     <div className="Navbar-container">
       {navbarOptions.map(x => {
-        <div className="text">
+        <div className="menuOptions">
           {x}
         </div>
       })}
